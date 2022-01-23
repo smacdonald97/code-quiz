@@ -26,6 +26,12 @@ header h1 a{
     font-weight: bold;
 }
 
+.btn {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    border-radius: 50px;
+}
+
 div {
     margin: 20px;
     padding: 20px;
@@ -44,4 +50,5 @@ footer {
     margin: 20px;
     padding: 20px;
     border-style: solid;
+    border-radius: 20px;
 }

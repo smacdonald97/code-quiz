@@ -1,4 +1,6 @@
-window.alert("Test Your Might!")
+document.getElementById("start-button").onclick = function() 
+    {window.alert("Test Your Might!")
+};
 
 var questionArray = [
     {question: "How do you write a comment in Javascript?",
