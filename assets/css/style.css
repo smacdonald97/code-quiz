@@ -39,3 +39,9 @@ div form {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+}
