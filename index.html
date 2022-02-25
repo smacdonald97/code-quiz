@@ -10,30 +10,30 @@
 <body>
     <header>
         <h1 class="header">
-            <a href="index.html">Code Quiz</a>
+            <a href="index.html">Code Quiz!</a>
         </h1>
-        <button id="start-button" class="btn">Start Quiz</button>
     </header>
 
     <main>
         <p>Answer the questions below to test your Javascript knowledge!</p>
-        <div id="answers">
-            <form action="onClick">
-            
-                <select name="Answers" id="question-answers">
-            
-                    <option value="" disabled selected>Select an Answer</option>
-            
-                    <option value="A">Answer A</option>
-            
-                    <option value="B">Answer B</option>
-            
-                    <option value="C">Answer C</option>
-            
-                    <option value="D">Answer D</option>
-            
-                </select>
-            </form>
+        <div class="container">
+            <div id="question-container" class="hide">
+                <div id="question">Question</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer A</button>
+                    <button class="btn">Answer B</button>
+                    <button class="btn">Answer C</button>
+                    <button class="btn">Answer D</button>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn">Next</button>
+            </div>
+            <div class="score-container">
+                <p>Score out of 100</p>
+                <div class="score"></div>
+            </div>
         </div>
     </main>
 

@@ -26,19 +26,43 @@ header h1 a{
     font-weight: bold;
 }
 
+p {
+    font-size: large
+}
+
 .btn {
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.btn:hover{
+    background-color: var(--secondary-color);
     color: var(--primary-color);
-    border-radius: 50px;
+}
+
+.btn-grid {
+    align-items: center;
 }
 
 div {
-    margin: 20px;
+    margin: auto;
     padding: 20px;
     background-color: var(--tertiary-color);
     color: var(--primary-color);
+    border: none;
     border-color: var(--secondary-color);
     border-radius: 20px;
+    width: auto;
+    max-width: 80%;
+}
+
+#question {
+    font-size: large;
+    font-weight: bold;
 }
 
 div form {
@@ -52,3 +76,37 @@ footer {
     border-style: solid;
     border-radius: 20px;
 }
+
+@media screen and (max-width: 980px) {
+    *{
+        flex-wrap: nowrap;
+    }
+    
+    header {
+        margin: auto;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        flex-wrap: nowrap;
+    }
+
+    header {
+        margin: auto;
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    *{
+        flex-wrap: nowrap;
+    }
+
+    header {
+        margin: auto;
+        padding: auto;
+    }
+}
+
